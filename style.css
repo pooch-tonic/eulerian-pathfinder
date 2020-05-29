@@ -1,0 +1,21 @@
+.button {
+  font-family: 'Open sans', 'consolas';
+  cursor: pointer;
+  padding: 10px 15px;
+  background: white;
+  border-radius: 4px;
+  border: solid 1px grey;
+  transition: transform 0.15s ease;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+#logs {
+  font-family: 'consolas';
+  font-size: 12px;
+}
+#logs p {
+  margin-bottom: 0;
+  margin-top: 5px;
+  overflow-wrap: break-word;
+}
