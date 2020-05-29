@@ -1,5 +1,8 @@
-.button {
+a, .button {
   font-family: 'Open sans', 'consolas';
+}
+
+.button {
   cursor: pointer;
   padding: 10px 15px;
   background: white;
@@ -18,4 +21,18 @@
   margin-bottom: 0;
   margin-top: 5px;
   overflow-wrap: break-word;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+  padding: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
